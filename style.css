@@ -1,0 +1,44 @@
+body{
+	/* background: rgb(63,94,251);
+	background: linear-gradient(349deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); */
+}
+
+.container{
+	background: rgb(238,174,202);
+	background: linear-gradient(180deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 55%);
+	width: 700px;
+	height: 700px;
+	margin: 0 auto;
+	border-radius: 40px;
+}
+
+.counter {
+	padding-top: 200px;
+	text-align: center;
+	font-size: 162px;
+	line-height: 80px;
+	height: 80px;
+	width: 120px;
+	margin: 0 auto;
+	color: white;
+}
+
+.buttons{
+	padding-top: 180px;
+	display: flex;
+	margin: 0 auto;
+	
+	
+}
+
+.btn{
+	background-color:  rgba(148,187,233,1);
+	margin: 0 auto;
+	padding: 0;
+	border:0;
+	
+}
+
+.btn:hover{
+	scale: 1.1;
+}
